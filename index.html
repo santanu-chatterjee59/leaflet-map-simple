@@ -21,7 +21,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Educational Institution Locations</div>
+  <div id="map-title">UK Educational Institution Locations</div>
   <div id="map"></div>
 
   <!-- Create the map content with JavaScript (.js) -->
@@ -54,7 +54,7 @@
 
   /* Display a blue point marker with pop-up text */
   L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Educationl Institution Details"); // EDIT pop-up text message
+  .bindPopup("UK Educationl Institution Details"); // EDIT pop-up text message
 
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
    var customLayer = L.geoJson(null, {
